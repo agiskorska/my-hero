@@ -1,0 +1,62 @@
+img{
+    width: 150px;
+    height: 150px;
+
+}
+
+.image, section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.image{
+    width: 150px;
+}
+
+section{
+    width: 60%;
+    background-color: white;
+    margin-bottom: 5%;
+}
+
+body{
+    background-image: url(https://i.pinimg.com/564x/5f/90/5d/5f905ddead71b2ab4678e9baa908e258.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+nav>* {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+h1{
+    
+    font-family: 'Fredericka the Great', cursive;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.253);
+}
+
+a{
+    margin: 50px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(63, 6, 6, 0.8);
+    padding: 10px;
+}
+
+li:hover{
+    transform: scale(1.2);
+}
