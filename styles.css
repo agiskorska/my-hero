@@ -20,6 +20,9 @@ section{
     width: 60%;
     background-color: white;
     margin-bottom: 5%;
+    padding: 2%;
+    border-radius: 20px;
+    box-shadow:5px 6px #2b2a2acc;
 }
 
 body{
