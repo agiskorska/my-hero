@@ -63,3 +63,7 @@ a{
 li:hover{
     transform: scale(1.2);
 }
+
+.gallery{
+    background-color: none;
+}
